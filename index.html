@@ -4,33 +4,12 @@
 	<meta charset="UTF-8">
 	<title>Blog</title>
 	<link rel="stylesheet" href="assets/css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-	<div class="flex-box">
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-	</div>
 	<header class="header">
 		<figure class="logo">
-			<img src="assets/img/logo.jpg" alt="logo" width="300px">
+			<img src="assets/img/logo.png" alt="logo" width="160px">
 		</figure>
 		<nav class="nav-bar">
 			<ol>
@@ -49,10 +28,10 @@
 		</nav>
 	</header>
 	<section class="hero">
-		<h1>Hola! Soy "nombre" y soy <br> <strong>"Profesión"</strong></h1>
+		<h1>Hola! Soy <strong>Carlos Julio Morales</strong> y soy <br> <strong>Desarrollador FrontEnd</strong></h1>
 		<!-- <img src="assets/img/me.jpg" alt="Img-Me" width="500px"> -->
 	</section>
-	<section id="portafolio" class="portfolio">
+	<section id="portafolio" class="portafolio">
 		<h2>Portafolio (Proyectos destacados)</h2>
 		<article class="project">
 			<div class="project-details">
@@ -60,8 +39,9 @@
 				<h6 class="project-course">Laravel</h6>
 				<p class="project-date"><small><strong>Fecha:</strong> 01/01/2019 </small></p>
 				<p class="project-url"><small><strong> Puedes Verlo en :</strong> www.youtube.com</small></p>
-				<p class="project-desciption">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem animi necessitatibus tenetur tempore similique mollitia ea facilis recusandae, autem earum. Aliquam nostrum, molestias animi a enim quam, pariatur aspernatur iste.
+				<p class="project-description">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem animi necessitatibus tenetur tempore similique mollitia ea facilis recusandae, autem earum. Aliquam nostrum, molestias animi a enim quam, pariatur aspernatur iste. <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum impedit rerum quo esse dolorum quidem, soluta, repudiandae? Ratione, quam voluptas illo debitis sed mollitia. Aspernatur iusto quam, sunt necessitatibus? Hic.
 				</p>
 			</div>
 			<figure class="project-image-container">
@@ -74,8 +54,9 @@
 				<h6 class="project-course">Laravel</h6>
 				<p class="project-date"><small><strong>Fecha:</strong> 01/01/2019 </small></p>
 				<p class="project-url"><small><strong> Puedes Verlo en :</strong> www.youtube.com</small></p>
-				<p class="project-desciption">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem animi necessitatibus tenetur tempore similique mollitia ea facilis recusandae, autem earum. Aliquam nostrum, molestias animi a enim quam, pariatur aspernatur iste.
+				<p class="project-description">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem animi necessitatibus tenetur tempore similique mollitia ea facilis recusandae, autem earum. Aliquam nostrum, molestias animi a enim quam, pariatur aspernatur iste. <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum impedit rerum quo esse dolorum quidem, soluta, repudiandae? Ratione, quam voluptas illo debitis sed mollitia. Aspernatur iusto quam, sunt necessitatibus? Hic.
 				</p>
 			</div>
 			<figure class="project-image-container">
@@ -83,16 +64,49 @@
 			</figure>
 		</article>
 	</section>
-	<section id="eventos">
-		<h2>Más Sobre mi experiencia</h2>
+	<h2 class="event-list-title">Más Sobre mi experiencia</h2>
+	<section id="eventos" class="event-list">
 		<article class="event">
 			<figure class="event-image-container">
 				<img class="event-image" src="assets/img/conferencia.jpg" alt="Img-Exp" width="500px">
 			</figure>
-			<h3 class="event-title">Comicon San Diego 2020</h3>
-			<p class="event-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem eius ad ipsa, ex facere praesentium laboriosam laudantium? Facere quaerat asperiores deleniti! Perspiciatis nam debitis eveniet officiis soluta dolor doloremque!</p>
-			<a class="event-url" href="https://www.youtube.com/watch?v=GROZUP4vA9o" target="_black">Ver Conferencia</a>
+			<div class="event-detail">
+				<h3 class="event-title">Comicon San Diego 2020</h3>
+				<p class="event-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem eius ad ipsa, ex facere praesentium laboriosam laudantium? Facere quaerat asperiores deleniti! Perspiciatis nam debitis eveniet officiis soluta dolor doloremque!</p>
+				<a class="event-url" href="https://www.youtube.com/watch?v=GROZUP4vA9o" target="_black">Ver Conferencia</a>
+			</div>
 		</article>
+		<article class="event">
+			<figure class="event-image-container">
+				<img class="event-image" src="assets/img/conferencia.jpg" alt="Img-Exp" width="500px">
+			</figure>
+			<div class="event-detail">
+				<h3 class="event-title">Comicon San Diego 2020</h3>
+				<p class="event-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem eius ad ipsa, ex facere praesentium laboriosam laudantium? Facere quaerat asperiores deleniti! Perspiciatis nam debitis eveniet officiis soluta dolor doloremque!</p>
+				<a class="event-url" href="https://www.youtube.com/watch?v=GROZUP4vA9o" target="_black">Ver Conferencia</a>
+			</div>
+		</article>
+		<article class="event">
+			<figure class="event-image-container">
+				<img class="event-image" src="assets/img/conferencia.jpg" alt="Img-Exp" width="500px">
+			</figure>
+			<div class="event-detail">
+				<h3 class="event-title">Comicon San Diego 2020</h3>
+				<p class="event-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem eius ad ipsa, ex facere praesentium laboriosam laudantium? Facere quaerat asperiores deleniti! Perspiciatis nam debitis eveniet officiis soluta dolor doloremque!</p>
+				<a class="event-url" href="https://www.youtube.com/watch?v=GROZUP4vA9o" target="_black">Ver Conferencia</a>
+			</div>
+		</article>
+		<article class="event">
+			<figure class="event-image-container">
+				<img class="event-image" src="assets/img/conferencia.jpg" alt="Img-Exp" width="500px">
+			</figure>
+			<div class="event-detail">
+				<h3 class="event-title">Comicon San Diego 2020</h3>
+				<p class="event-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem eius ad ipsa, ex facere praesentium laboriosam laudantium? Facere quaerat asperiores deleniti! Perspiciatis nam debitis eveniet officiis soluta dolor doloremque!</p>
+				<a class="event-url" href="https://www.youtube.com/watch?v=GROZUP4vA9o" target="_black">Ver Conferencia</a>
+			</div>
+		</article>
+		
 	</section>
 	<section id="contacto">
 		<article>
@@ -106,6 +120,13 @@
 			</form>
 		</article>
 	</section>
-	<footer class="footer">Footer</footer>
+	<footer class="footer">
+		<div>
+			<p>Curso de desarrollo web online 2018 <img src="assets/img/logo_footer.png" width="70px;" alt="logo_footer"></p>
+		</div>
+		<div>
+			Designed with <\3 by <a href="#">Colaborador</a>
+		</div>
+	</footer>
 </body>
 </html>
